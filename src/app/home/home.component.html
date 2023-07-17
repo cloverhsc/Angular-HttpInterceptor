@@ -1,0 +1,7 @@
+<form [formGroup]="signInForm" (ngSubmit)="submit()">
+  <input type="text" formControlName="username" required /><br />
+  <input type="password" formControlName="password" required />
+  <button type="submit">Submit</button>
+</form>
+
+<button (click)="click()">GET</button>
